@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-number, new_line = 98, "\n"
+number = 98
 print(f"{number}Battery street{new_line}")
