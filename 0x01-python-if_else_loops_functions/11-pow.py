@@ -5,5 +5,5 @@ def pow(a, b):
         ex = a ** b
     elif a < 0 and b > 0:
         ex = (a) ** b
-    print("{:.2f}".format(ex))
+    print("{}".format(ex))
     return ex
