@@ -4,5 +4,5 @@ if __name__ == "__main__":
     from hidden_4
     sortedList = dir(hidden)
     for name in sortedList:
-        if name[0] != "_" and name[1] != "_":
+        if not name.startsWith("__"):
             print(name)
