@@ -5,4 +5,4 @@ if __name__ == "__main__":
     sortedList = dir(hidden)
     for name in sortedList:
         if not name.startsWith("__"):
-            print(name)
+            print("{:s}".format(name))
