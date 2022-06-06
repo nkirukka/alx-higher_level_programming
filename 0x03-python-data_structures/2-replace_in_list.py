@@ -17,5 +17,4 @@ if __name__ == "__main__":
     new_element = 9
     new_list = replace_in_list(my_list, idx, new_element)
 
-
     print(new_list)
