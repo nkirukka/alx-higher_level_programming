@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+i#!/usr/bin/python3
 
 
 def max_integer(my_list=[]):
@@ -9,3 +9,9 @@ def max_integer(my_list=[]):
         if i == 0 or n > max_int:
             max_int = n
     return max-int
+
+
+if __name__ == '__main__':
+    my_list = [1, 90, 2, 13, 34, 5, -13, 3]
+    max_value = max_integer(my_list)
+    print("Max: {}".format(max_value))
