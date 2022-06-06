@@ -8,7 +8,7 @@ def max_integer(my_list=[]):
     for i, n in enumerate(my_list):
         if i == 0 or n > max_int:
             max_int = n
-    return max-int
+    return max_int
 
 
 if __name__ == '__main__':
