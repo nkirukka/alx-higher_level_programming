@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" this module defines a class MyList"""
 
 
 class MyList(list):
